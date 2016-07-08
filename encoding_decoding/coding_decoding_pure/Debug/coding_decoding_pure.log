@@ -1,0 +1,44 @@
+﻿生成启动时间为 2016/7/7 星期四 18:48:18。
+     1>项目“E:\code_decodec\coding_decoding_pure\coding_decoding_pure\coding_decoding_pure.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\coding_decoding_pure.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\coding_decoding_pure.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt coding_decoding_pure.cpp
+         coding_decoding_pure.cpp
+     1>e:\code_decodec\coding_decoding_pure\coding_decoding_pure\coding.h(97): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\code_decodec\coding_decoding_pure\coding_decoding_pure\coding.h(103): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\code_decodec\coding_decoding_pure\coding_decoding_pure\decoding.h(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\code_decodec\coding_decoding_pure\coding_decoding_pure\decoding.h(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\code_decodec\coding_decoding_pure\coding_decoding_pure\decoding.h(108): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+                 e:\code_decodec\coding_decoding_pure\coding_decoding_pure\include\libavcodec\avcodec.h(4734) : 参见“avcodec_decode_video2”的声明
+     1>e:\code_decodec\coding_decoding_pure\coding_decoding_pure\decoding.h(121): warning C4996: 'avpicture_get_size': 被声明为已否决
+                 e:\code_decodec\coding_decoding_pure\coding_decoding_pure\include\libavcodec\avcodec.h(5381) : 参见“avpicture_get_size”的声明
+     1>e:\code_decodec\coding_decoding_pure\coding_decoding_pure\decoding.h(122): warning C4996: 'avpicture_fill': 被声明为已否决
+                 e:\code_decodec\coding_decoding_pure\coding_decoding_pure\include\libavcodec\avcodec.h(5366) : 参见“avpicture_fill”的声明
+     1>e:\code_decodec\coding_decoding_pure\coding_decoding_pure\decoding.h(147): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+                 e:\code_decodec\coding_decoding_pure\coding_decoding_pure\include\libavcodec\avcodec.h(4734) : 参见“avcodec_decode_video2”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code_decodec\coding_decoding_pure\Debug\coding_decoding_pure.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib avcodec.lib avfilter.lib avdevice.lib avformat.lib avutil.lib postproc.lib swresample.lib swscale.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\coding_decoding_pure.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\code_decodec\coding_decoding_pure\Debug\coding_decoding_pure.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code_decodec\coding_decoding_pure\Debug\coding_decoding_pure.lib" /MACHINE:X86 Debug\coding_decoding_pure.exe.embed.manifest.res
+         Debug\coding_decoding_pure.obj
+         Debug\stdafx.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\coding_decoding_pure.exe.embed.manifest" /manifest Debug\coding_decoding_pure.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         coding_decoding_pure.vcxproj -> E:\code_decodec\coding_decoding_pure\Debug\coding_decoding_pure.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\coding_decoding_pure.unsuccessfulbuild”。
+         正在对“Debug\coding_decoding_pure.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code_decodec\coding_decoding_pure\coding_decoding_pure\coding_decoding_pure.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.58
