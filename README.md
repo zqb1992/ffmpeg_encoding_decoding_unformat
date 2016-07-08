@@ -1,0 +1,2 @@
+# ffmpeg_encoding_decoding_unformat
+没有封装格式的纯净ffmpeg编解码，支持h264、h265等
